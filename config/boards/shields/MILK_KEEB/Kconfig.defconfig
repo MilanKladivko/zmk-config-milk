@@ -1,0 +1,6 @@
+if SHIELD_MILK_KEEB
+
+config ZMK_KEYBOARD_NAME
+  default "Milk Keeb (BT)"
+
+endif
