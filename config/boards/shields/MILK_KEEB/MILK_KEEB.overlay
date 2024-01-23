@@ -3,7 +3,7 @@
 / {
   chosen {
     zmk,kscan = &kscan__direct;
-    zmk,matrix_transform = &transform__direct;
+    // zmk,matrix_transform = &transform__direct;
   };
 
   //--- DIRECT_PIN:
