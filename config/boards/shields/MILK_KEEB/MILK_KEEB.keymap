@@ -9,9 +9,6 @@
       label = "testing layer";
       bindings = <
    &trans              &kp LS(B)           &kp LS(M)           &kp LS(G)           &kp LS(K)           &kp LS(X)           &kp LS(L)           &kp LS(O)           &kp LS(U)           &trans
-   &lt SHORTCUTS LS(D) &mt LSHFT LS(N)     &mt LCTRL LS(S)     &mt LGUI LS(T)      &kp LS(W)           &kp LS(Z)           &mt RGUI LS(R)      &mt RCTRL LS(A)     &mt RSHFT LS(E)     &lt SHORTCUTS LS(I) 
-   &kp LS(Q)           &mt RALT LS(F)      &kp LS(C)           &mt LALT LS(P)      &kp LS(V)           &kp LS(J)           &mt RALT LS(H)      &th_comma 0 0       &th_dot 0 0         &kp LS(Y)
-                                           &trans              &ht_repeat NAV 0    &trans              &msl RAISE CASE_A2  &ht_sc MEDIA 0      &trans
       >;
     };
   };
