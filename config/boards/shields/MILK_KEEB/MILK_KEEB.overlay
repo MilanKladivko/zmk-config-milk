@@ -7,7 +7,7 @@
   };
 
   //--- DIRECT_PIN:
-  kscan__direct: kscan {
+  kscan__direct: kscan__direct {
     compatible = "zmk,kscan-gpio-direct";
     label = "kscan__direct";
     input-gpios 
@@ -22,7 +22,7 @@
   //--- :DIRECT_PIN
 
   //--- MATRIX: 
-  kscan__matrix: kscan {
+  kscan__matrix: kscan__matrix {
     compatible = "zmk,kscan-gpio-matrix";
     label = "kscan__matrix";
     diode_direction = "col2row";
@@ -37,7 +37,7 @@
       , <&pro_micro 5 (GPIO_ACTIVE_HIGH)>
       ;
   };
-  transform__matrix: matrix_transform {
+  transform__matrix: transform__matrix {
     compatible = "zmk,matrix-transform";
     rows = <3>;
     cols = <3>;
